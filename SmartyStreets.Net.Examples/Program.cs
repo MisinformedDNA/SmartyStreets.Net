@@ -1,5 +1,4 @@
-﻿using SmartyStreets.Requests;
-using System.Configuration;
+﻿using System.Configuration;
 using System.Threading.Tasks;
 
 namespace SmartyStreets.Net.Examples

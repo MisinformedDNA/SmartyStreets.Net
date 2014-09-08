@@ -1,7 +1,7 @@
 ﻿using Newtonsoft.Json;
 using System.ComponentModel;
 
-namespace SmartyStreets.Requests
+namespace SmartyStreets
 {
     /// <summary>
     /// Request object to get street addresses

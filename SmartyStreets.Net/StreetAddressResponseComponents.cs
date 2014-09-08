@@ -1,6 +1,6 @@
 ﻿using Newtonsoft.Json;
 
-namespace SmartyStreets.Responses
+namespace SmartyStreets
 {
     public class StreetAddressResponseComponents
     {

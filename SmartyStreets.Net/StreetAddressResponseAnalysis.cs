@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Linq;
 
-namespace SmartyStreets.Responses
+namespace SmartyStreets
 {
     public class StreetAddressResponseAnalysis
     {

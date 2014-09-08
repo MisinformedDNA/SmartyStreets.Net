@@ -1,4 +1,4 @@
-﻿namespace SmartyStreets.Requests
+﻿namespace SmartyStreets
 {
     /// <remarks>Documentation can be found at http://smartystreets.com/kb/liveaddress-api/zipcode-api </remarks>
     public class ZipcodeRequest

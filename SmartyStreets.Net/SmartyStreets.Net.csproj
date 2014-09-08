@@ -40,24 +40,27 @@
     <Reference Include="System.Net.Http" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Requests\ZipcodeRequest.cs" />
-    <Compile Include="Requests\StreetAddressRequest.cs" />
-    <Compile Include="Responses\SmartyStreetResponse.cs" />
-    <Compile Include="Responses\StreetAddressResponseAnalysis.cs" />
-    <Compile Include="Responses\StreetAddressResponseMetadata.cs" />
-    <Compile Include="Responses\StreetAddressResponseComponents.cs" />
-    <Compile Include="Responses\ZipcodeResponseCityState.cs" />
-    <Compile Include="Responses\ZipcodeResponseResult.cs" />
-    <Compile Include="Responses\ZipcodeResponseZipcodes.cs" />
+    <Compile Include="ZipcodeRequest.cs" />
+    <Compile Include="StreetAddressRequest.cs" />
+    <Compile Include="SmartyStreetResponse.cs" />
+    <Compile Include="StreetAddressResponseAnalysis.cs" />
+    <Compile Include="StreetAddressResponseMetadata.cs" />
+    <Compile Include="StreetAddressResponseComponents.cs" />
+    <Compile Include="ZipcodeResponseCityState.cs" />
+    <Compile Include="ZipcodeResponseResult.cs" />
+    <Compile Include="ZipcodeResponseZipcodes.cs" />
     <Compile Include="SmartyStreetsClient.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="Helpers\SnakeCaseContractResolver.cs" />
-    <Compile Include="Responses\StreetAddressResponseResult.cs" />
+    <Compile Include="StreetAddressResponseResult.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Folder Include="Requests\" />
+    <Folder Include="Responses\" />
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
        Other similar extension points exist, see Microsoft.Common.targets.

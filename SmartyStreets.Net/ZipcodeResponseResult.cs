@@ -1,4 +1,4 @@
-﻿namespace SmartyStreets.Responses
+﻿namespace SmartyStreets
 {
     public class ZipcodeResponseResult
     {

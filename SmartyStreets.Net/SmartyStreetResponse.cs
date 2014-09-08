@@ -1,12 +1,12 @@
 ﻿using Newtonsoft.Json;
-using SmartyStreets.Helpers;
 using System.Collections.Generic;
 using System.IO;
 using System.Net;
 using System.Net.Http;
 using System.Threading.Tasks;
+using SmartyStreets.Helpers;
 
-namespace SmartyStreets.Responses
+namespace SmartyStreets
 {
     public class SmartyStreetResponse<T>
     {
