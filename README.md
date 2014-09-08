@@ -1,6 +1,6 @@
 StreetSmarts client library for .NET
 =================
-Use of this API requires free registration [here](http://smartystreets.com/).
+Use of this API requires free registration [here](http://smartystreets.com/). Official documentation for SmartyStreets is [here](http://smartystreets.com/kb/liveaddress-api).
 
 ----
 
@@ -25,10 +25,6 @@ If you want to verify an address
     var response = await _client.StreetAddressAsync(request);
     var result = await response.GetResultsAsync();
 
-If you want to have full control over deserialization and observing headers, the `HttpResponseMessage` is also included.
-
-     var result = await response.ResponseMessage.Content.ReadAsStringAsync();
-
 You can also use their zipcode library
 
     private static async Task CityStateToZipcodeExample()
@@ -42,3 +38,13 @@ You can also use their zipcode library
 The official StreetSmarts API also allows for batch processing, which this API also supports.
 
     var response = await _client.StreetAddressAsync(new[] { request });
+
+If you want to set custom headers in the request
+
+    _client.HttpRequestHeaders.Add("x-standardize-only", "true")
+
+If you want to have full control over deserialization and observing headers, the `HttpResponseMessage` is also included.
+
+     var result = await response.ResponseMessage.Content.ReadAsStringAsync();
+
+Please report any issues or suggestions. PRs appreciated.
