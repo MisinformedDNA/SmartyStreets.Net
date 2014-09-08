@@ -16,8 +16,8 @@ namespace SmartyStreets.Net.Examples
             Task.Run(() => StreetAddressExample()).Wait();
             Task.Run(() => ZipcodeToCityStateExample()).Wait();
             Task.Run(() => CityStateToZipcodeExample()).Wait();
-            //Task.Run(() => ValidateCityStateZipcodeExample()).Wait();
-            //Task.Run(() => InvalidCityStateZipcodeExample()).Wait();
+            Task.Run(() => ValidateCityStateZipcodeExample()).Wait();
+            Task.Run(() => InvalidCityStateZipcodeExample()).Wait();
         }
 
         private static async Task StreetAddressExample()
