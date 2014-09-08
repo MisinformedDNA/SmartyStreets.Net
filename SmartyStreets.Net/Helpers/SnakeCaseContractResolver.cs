@@ -7,7 +7,7 @@ using System.Reflection;
 
 namespace SmartyStreets.Helpers
 {
-    public class SnakeCaseContractResolver : DefaultContractResolver
+    internal class SnakeCaseContractResolver : DefaultContractResolver
     {
         protected override JsonProperty CreateProperty(MemberInfo member, MemberSerialization memberSerialization)
         {
