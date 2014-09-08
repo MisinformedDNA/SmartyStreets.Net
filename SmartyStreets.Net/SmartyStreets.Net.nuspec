@@ -12,7 +12,7 @@
     <description>$description$</description>
     <copyright>Copyright 2014</copyright>
     <tags>SmartyStreets address validation</tags>
-    <releaseNotes>Initial release</releaseNotes>
+    <releaseNotes>Reduce namespace noise</releaseNotes>
   </metadata>
   <files>
   </files>
