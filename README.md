@@ -1,6 +1,6 @@
 StreetSmarts client library for .NET
 =================
-Use of this API requires free registration [here](http://smartystreets.com/). Official documentation for SmartyStreets is [here](http://smartystreets.com/kb/liveaddress-api).
+Use of this API requires free registration [here](https://smartystreets.com). Official documentation for SmartyStreets is [here](https://smartystreets.com/docs/cloud).
 
 ----
 
